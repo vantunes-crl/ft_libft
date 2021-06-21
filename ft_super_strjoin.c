@@ -1,5 +1,5 @@
 #include <stdarg.h>
-#include "ft_libft/libft.h"
+#include "libft.h"
 
 char *ft_super_strjoin(int num, ...)
 {
