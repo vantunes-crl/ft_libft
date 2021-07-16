@@ -14,9 +14,9 @@
 
 int	ft_countwords_bonus(const char *s, char c)
 {
-	int i;
-	int flag;
-	int count;
+	int	i;
+	int	flag;
+	int	count;
 
 	flag = 0;
 	count = 0;

@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-static	int		count_cols(const char *s, char c, int i)
+static	int	count_cols(const char *s, char c, int i)
 {
 	int	len;
 
@@ -38,9 +38,9 @@ static	char	**clean_matriz(char const **dest, int j)
 
 static	char	**create_matriz(const char *s, char **dest, char c, int lines)
 {
-	int i;
-	int j;
-	int k;
+	int	i;
+	int	j;
+	int	k;
 
 	j = 0;
 	i = 0;
@@ -61,7 +61,7 @@ static	char	**create_matriz(const char *s, char **dest, char c, int lines)
 	return (dest);
 }
 
-char			**ft_split(char const *s, char c)
+char	**ft_split(char const *s, char c)
 {
 	int		lines;
 	char	**dest;

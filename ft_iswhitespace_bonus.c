@@ -15,7 +15,7 @@
 int	ft_iswhitespace_bonus(char c)
 {
 	if (c == ' ' || c == '\n' || c == '\t' || c == '\v'
-			|| c == '\f' || c == '\r')
+		|| c == '\f' || c == '\r')
 		return (1);
 	return (0);
 }

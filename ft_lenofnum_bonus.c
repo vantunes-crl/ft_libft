@@ -14,7 +14,7 @@
 
 int	ft_lenofnum_bonus(int n)
 {
-	int l;
+	int	l;
 
 	l = 1;
 	while (n > 9)
