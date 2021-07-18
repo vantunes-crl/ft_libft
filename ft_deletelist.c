@@ -5,7 +5,7 @@ void	ft_deletelist(t_list **env)
 	t_list	*current;
 	t_list	*next;
 
-	current = env;
+	current = *env;
 	while (current != NULL)
 	{
 		next = current->next;
